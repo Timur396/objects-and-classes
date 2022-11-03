@@ -11,7 +11,7 @@ public class AuthorBook {
     }
 
     public String toString() {
-        return firstName + " " + lastName;
+        return this.firstName + " " + this.lastName;
     }
     public boolean equals(Object other) {
         if (this == other)

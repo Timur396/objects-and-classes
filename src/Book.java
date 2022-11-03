@@ -12,7 +12,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Название книги:" + nameBook + ".Автор книги: " + authorBook + ".Год издания: " + year;
+        return "Название книги:" + this.nameBook + ".Автор книги: " + this.authorBook + ".Год издания: " + this.year;
     }
 
     public boolean equals(Object other) {
